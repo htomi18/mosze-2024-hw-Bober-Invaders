@@ -6,6 +6,11 @@ TagManager:
   tags:
   - hatar
   - ellenseg
+  - Enemy_Bullet
+  - Polish_Boss
+  - Boss_Bullet
+  - fedezek
+  - stick
   layers:
   - Default
   - TransparentFX
