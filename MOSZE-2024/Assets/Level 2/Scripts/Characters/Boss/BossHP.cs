@@ -13,7 +13,7 @@ public class BossHP : MonoBehaviour
     public int health = 1000;  //Alapértelmezetten a miniBoss élete 500
     private int currentHealth;
 
-    void Start()
+    public void Start()
     {
         currentHealth = health;
         healthBar.maxValue = health;
