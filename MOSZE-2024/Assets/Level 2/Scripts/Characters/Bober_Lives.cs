@@ -9,7 +9,7 @@ public class Bober_Lives : MonoBehaviour
     public Image[] livesUI;
     public GameObject defeat;
 
-    void Start()
+    public void Start()
     {
         defeat.SetActive(false);
     }
@@ -22,7 +22,7 @@ public class Bober_Lives : MonoBehaviour
 
 
     //Karakterünk sebződéséért felel
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Boss_Bullet")  //azt vizsgáljuk, hogy az ellenség lövedéke talált-e el minket
         {

@@ -6,10 +6,10 @@ public class Bober : MonoBehaviour
 {
     public GameObject stick;  //ez a játékosunk Stick prefab-je
    public Transform FirePoint;  //ez a játékosunkhoz rendelt tüzelési pont, ahonnan a stick fog indulni
-   public float bulletForce = 20f;  //a lövedék mozgási sebességét adjuk meg előre
+   public float bulletForce = 5f;  //a lövedék mozgási sebességét adjuk meg előre
    public float moveSpeed = 5f;  //karakter mozgási sebességét adjuk meg előre
    public Rigidbody2D rb;
-   private Vector2 moveDirection;
+   public Vector2 moveDirection;
    
 
 void Update()
@@ -36,7 +36,7 @@ void FixedUpdate()
 }
 
 //karakter mozgását adjuk meg X és Y tengelyeken
-   void ProcessInputs()
+   public void ProcessInputs()
    {
       float moveX = Input.GetAxisRaw("Horizontal");
       float moveY = Input.GetAxisRaw("Vertical");
@@ -46,7 +46,7 @@ void FixedUpdate()
 
 
 //A karakter mozgásáért felel
-   void Move()  
+   public void Move()  
    {
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
 
