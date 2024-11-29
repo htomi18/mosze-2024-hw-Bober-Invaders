@@ -9,10 +9,19 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Intro.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Bober_Invaders_Main_Menu.unity
+    guid: 54ba63994694895449d46eb109b22045
+  - enabled: 1
     path: Assets/Bober_Invaders_Level_1.unity
     guid: 6baef0b24c87810408a583e464d9933d
   - enabled: 1
     path: Assets/Bober_Invaders_Level_2.unity
     guid: a8524f1773855e945b88b73225404667
+  - enabled: 1
+    path: Assets/Outro.unity
+    guid: 99599df3290dc884d8b3ac0de222b84f
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
