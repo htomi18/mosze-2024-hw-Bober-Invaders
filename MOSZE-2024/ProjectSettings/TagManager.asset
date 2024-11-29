@@ -11,6 +11,7 @@ TagManager:
   - Boss_Bullet
   - fedezek
   - stick
+  - gally
   layers:
   - Default
   - TransparentFX
